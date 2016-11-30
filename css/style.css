@@ -6,3 +6,17 @@ nav {
 body {
   background-color: grey;
 }
+
+header {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+header.h1 {
+  color: white;
+}
+
+header.a {
+  color: white;
+}
