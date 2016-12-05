@@ -1,8 +1,48 @@
 
+/* Reset */
+
+html, body, header, div, span, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%
+  vertical-align: baseline;
+}
+
+/*-- Header --*/
+header {
+  text-decoration: none;
+  background-color: black;
+}
+
+#page-wrapper {
+  display: block;
+  margin: 0px;
+}
+
+#header {
+  color: white;
+}
+
+h1 {
+  font-weight: 100;
+  color: white;
+}
+
+a.header {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+
+/*-- Navigation --*/
 nav {
 
 }
 
+
+/*-- Body --*/
 body {
   background-color: grey;
 }
