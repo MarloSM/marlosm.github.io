@@ -1,5 +1,4 @@
 document.write('\
-<header id="header" class="alt">\
   <h1><a href="index.html">Marlo San Miguel</a> Portfolio</h1>\
   <nav id="nav">\
     <ul>\
@@ -10,7 +9,7 @@ document.write('\
           <li><a href="idigiation.html">I-digi-ation</a></li>\
           <li><a href="respace.html">Respace</a></li>\
           <li><a href="mug.html">Arthiritis Mug</a></li>\
-          <li><a href="sleep.html">Sleep Experiment</a></li>\
+          <li><a href="leep.html">Sleep Experiment</a></li>\
         </ul>\
       </li>\
       <li>\
@@ -26,7 +25,6 @@ document.write('\
         <li><a href="about.html">About</a></li>\
     </ul>\
   </nav>\
-</header>\
 \
 \
 ');
