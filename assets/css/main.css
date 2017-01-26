@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
 /*
 Alpha by HTML5 UP
@@ -3055,10 +3055,20 @@ body.landing #page-wrapper {
 
 /* Banner */
 
+.banner {
+background-image: url("images/overlay.png"), url("../../images/banner01.jpg");
+}
+
+.banner-respace {
+background-image: url("images/overlay.png"), url("../../images/respaceBanner.jpg");
+}
+.banner-idigiation {
+background-image: url("images/overlay.png"), url("../../images/idigiation.jpg");
+}
+
 #banner {
 	background-attachment:scroll,							fixed;
 	background-color: #666;
-	background-image: url("images/overlay.png"), url("../../images/banner01.jpg");
 	background-position: top left,						center center;
 	background-repeat: repeat,							no-repeat;
 	background-size: auto, cover;
@@ -3066,6 +3076,7 @@ body.landing #page-wrapper {
 	padding: 12em 0 20em 0;
 	text-align: center;
 }
+
 
 #banner :last-child {
 	margin-bottom: 0;
